@@ -1,0 +1,17 @@
+{
+    "agents": [
+        "claude_code",
+        "codex",
+        "cursor",
+        "phpstorm"
+    ],
+    "editors": [
+        "claude_code",
+        "codex",
+        "cursor",
+        "phpstorm",
+        "vscode"
+    ],
+    "guidelines": [],
+    "herd_mcp": true
+}
