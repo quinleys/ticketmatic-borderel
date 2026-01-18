@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e1b9584e73ff3e30fd6cd4f60953137e",
+    "content-hash": "44d57397c7801c98b92e54aa6eeb62ac",
     "packages": [
         {
             "name": "brick/math",
@@ -5857,6 +5857,47 @@
                 }
             ],
             "time": "2025-12-18T07:04:31+00:00"
+        },
+        {
+            "name": "ticketmatic/phpsdk",
+            "version": "v1.0.122",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ticketmatic/tm-php.git",
+                "reference": "c42ea4cbb1ddbbcd5bbc6ed45d006f65824e6758"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ticketmatic/tm-php/zipball/c42ea4cbb1ddbbcd5bbc6ed45d006f65824e6758",
+                "reference": "c42ea4cbb1ddbbcd5bbc6ed45d006f65824e6758",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpdocumentor/phpdocumentor": "2.*",
+                "phpunit/phpunit": "~4.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ticketmatic\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ticketmatic",
+                    "email": "developers@ticketmatic.com"
+                }
+            ],
+            "description": "API bindings for Ticketmatic",
+            "support": {
+                "issues": "https://github.com/ticketmatic/tm-php/issues",
+                "source": "https://github.com/ticketmatic/tm-php/tree/v1.0.122"
+            },
+            "time": "2024-03-26T14:17:56+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
